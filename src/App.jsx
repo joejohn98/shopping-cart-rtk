@@ -7,7 +7,7 @@ import Cart from "./pages/Cart";
 function App() {
   return (
     <Router>
-      <div className="bg-white">
+      <div className="bg-white text-gray-700">
         <Navbar />
         <main className="max-w-7xl mx-auto min-h-screen px-4 sm:px-6 lg:px-8">
           <Routes>
