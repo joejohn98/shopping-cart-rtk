@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import ProductCard from "../components/ProductCard";
+import AddProduct from "../components/AddProduct";
 
 const Home = () => {
   const products = useSelector((state) => state.products);
@@ -18,7 +19,9 @@ const Home = () => {
               ))}
           </div>
         </div>
-        <div>Add New Product</div>
+        <div>
+          <AddProduct />
+        </div>
       </div>
     </div>
   );

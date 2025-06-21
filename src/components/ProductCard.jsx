@@ -13,7 +13,7 @@ const ProductCard = ({ product}) => {
     <h2 className="card-title text-gray-600">{name}</h2>
     <p className='text-gray-600'>{description}</p>
     <div className="card-actions justify-end">
-        <p className=" text-blue-500 font-semibold text-lg">${price.toFixed(2)}</p>
+        <p className=" text-blue-500 font-semibold text-lg">${Number(price).toFixed(2)}</p>
       <button className="btn btn-primary bg-blue-500 text-white hover:bg-blue-600">Add to Cart</button>
     </div>
     <div className="text-gray-500 text-sm mt-2">
